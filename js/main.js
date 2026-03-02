@@ -25,7 +25,7 @@ var $menubarHdr = $('#menubar_hdr');
 
 // menu
 $(window).on("load resize", debounce(function() {
-    if(window.innerWidth < 900) {
+    if(window.innerWidth < 700) {
         // 小さな端末用の処理
         $('body').addClass('small-screen').removeClass('large-screen');
         $menubar.addClass('display-none').removeClass('display-block');
